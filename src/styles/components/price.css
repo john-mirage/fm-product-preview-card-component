@@ -1,0 +1,25 @@
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.19rem;
+}
+
+.price--with-margin {
+  margin-bottom: 1.25rem;
+}
+
+.price__current {
+  color: var(--color-deep-aquamarine);
+}
+
+.price__previous {
+  color: var(--color-aurometal-saurus);
+}
+
+@media screen and (min-width: 41.5rem) {
+  .price--with-margin {
+    margin-bottom: 1.88rem;
+  }
+}

@@ -1,0 +1,52 @@
+.typo {
+  --_typo-font-stack-fallback: system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  font-feature-settings: 'clig' off, 'liga' off;
+}
+
+.typo--overline-md {
+  font-family: "Montserrat", var(--_typo-font-stack-fallback);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.3125rem;
+  text-transform: uppercase;
+}
+
+.typo--heading-md {
+  font-family: "Fraunces", var(--_typo-font-stack-fallback);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem; /* 100% */
+}
+
+.typo--body-md {
+  font-family: "Montserrat", var(--_typo-font-stack-fallback);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4375rem; /* 164.286% */
+}
+
+.typo--body-sm {
+  font-family: "Montserrat", var(--_typo-font-stack-fallback);
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4375rem; /* 176.923% */
+  text-decoration: line-through;
+}
+
+.typo--label-md {
+  font-family: "Montserrat", var(--_typo-font-stack-fallback);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media screen and (min-width: 41.5rem) {
+  
+}

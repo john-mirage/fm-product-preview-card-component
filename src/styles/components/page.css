@@ -1,0 +1,15 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--color-cream);
+  padding: 1.75rem 1rem;
+}
+
+@media screen and (min-width: 41.5rem) {
+  .page {
+    padding: 2rem;
+  }
+}

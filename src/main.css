@@ -1,0 +1,16 @@
+@import url("./styles/reset.css");
+
+@import url("./styles/components/page.css");
+@import url("./styles/components/card.css");
+@import url("./styles/components/typo.css");
+@import url("./styles/components/price.css");
+@import url("./styles/components/button.css");
+
+:root {
+  --color-pure-white: #FFFFFF;
+  --color-cream: #F2EAE2;
+  --color-aurometal-saurus: #6C7289;
+  --color-deep-aquamarine: #3D8168;
+  --color-dark-deep-aquamarine: #1A4032;
+  --color-gunmetal: #1C232B;
+}

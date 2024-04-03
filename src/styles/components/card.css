@@ -1,0 +1,63 @@
+.card {
+  width: 100%;
+  max-width: 21.4375rem;
+  background-color: var(--color-pure-white);
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+
+.card__body {
+  padding: 1.5rem;
+}
+
+.card__overline {
+  margin-bottom: 0.75rem;
+  color: var(--color-aurometal-saurus);
+}
+
+.card__title {
+  margin-bottom: 1rem;
+  color: var(--color-gunmetal);
+}
+
+.card__description {
+  margin-bottom: 1.5rem;
+  color: var(--color-aurometal-saurus);
+}
+
+@media screen and (min-width: 41.5rem) {
+  .card {
+    max-width: 37.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .card__header {
+    flex: 1;
+    position: relative;
+  }
+
+  .card__image {
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .card__body {
+    flex: 1;
+    padding: 2rem;
+  }
+
+  .card__overline {
+    margin-bottom: 1.25rem;
+  }
+
+  .card__title {
+    margin-bottom: 1.5rem;
+  }
+
+  .card__description {
+    margin-bottom: 1.81rem;
+  }
+}
